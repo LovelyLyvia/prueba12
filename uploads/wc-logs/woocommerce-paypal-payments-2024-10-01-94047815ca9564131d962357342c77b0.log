@@ -1,0 +1,286 @@
+2024-10-01T02:38:57+00:00 DEBUG Validating onboarding ppcpToken: ey...zRlIn0
+2024-10-01T02:38:57+00:00 ERROR Failed to validate onboarding ppcpToken: ey...zRlIn0
+2024-10-01T02:38:57+00:00 INFO Redirect ERROR: https://pruebadig12.free.nf/wp-admin/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcp-tab=ppcp-connection&ppcp-onboarding-error=1
+2024-10-01T02:38:58+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f479842642a69
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:39:04+00:00 DEBUG Loaded onbording URL from cache: production-ppcp
+2024-10-01T02:39:04+00:00 DEBUG Loaded onbording URL from cache: production-express_checkout
+2024-10-01T02:39:05+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f3482203828de
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:43:59+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f240502ccb99a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:44:03+00:00 DEBUG Loaded onbording URL from cache: production-ppcp
+2024-10-01T02:44:03+00:00 DEBUG Loaded onbording URL from cache: production-express_checkout
+2024-10-01T02:44:04+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f902115bb4f38
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:45:29+00:00 WARNING No PayPal order ID found in order #5448 meta.
+2024-10-01T02:45:31+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"USD","value":"70.00","breakdown":{"item_total":{"currency_code":"USD","value":"70.00"},"shipping":{"currency_code":"USD","value":"0.00"},"tax_total":{"currency_code":"USD","value":"0.00"}}},"description":"","items":[{"name":"Assorted Coffee","unit_amount":{"currency_code":"USD","value":"35.00"},"quantity":2,"description":"Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non\u00a0incidunt lores ta por","sku":"","category":"PHYSICAL_GOODS","url":"https:\/\/pruebadig12.free.nf\/producto\/assorted-coffee\/","image_url":"https:\/\/pruebadig12.free.nf\/wp-content\/uploads\/2018\/06\/coffee-asorted.jpg"}],"shipping":{"name":{"full_name":"s s"},"address":{"country_code":"EC","address_line_1":"a","address_line_2":"a","admin_area_1":"EC-G","admin_area_2":"a","postal_code":"34234"}},"custom_id":"5448","invoice_id":"becbfa-5448"}],"application_context":{"user_action":"PAY_NOW","shipping_preference":"GET_FROM_FILE","landing_page":"NO_PREFERENCE","locale":"es-ES","brand_name":"ToCupBoard","return_url":"https:\/\/pruebadig12.free.nf\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/pruebadig12.free.nf\/checkout\/","payment_method":{"payee_preferred":"UNRESTRICTED"}},"payer":{"email_address":"tania.allison1512@gmail.com","name":{"given_name":"s","surname":"s"},"address":{"country_code":"EC","address_line_1":"a","address_line_2":"a","admin_area_1":"EC-G","admin_area_2":"a","postal_code":"34234"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"23434234"}}}}
+Response Debug ID: f484079653c9a
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:46:11+00:00 DEBUG Validating onboarding ppcpToken: ey...zRlIn0
+2024-10-01T02:46:11+00:00 ERROR Failed to validate onboarding ppcpToken: ey...zRlIn0
+2024-10-01T02:46:11+00:00 INFO Redirect ERROR: https://pruebadig12.free.nf/wp-admin/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcp-tab=ppcp-connection&ppcp-onboarding-error=1
+2024-10-01T02:46:13+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f50215125939c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:46:18+00:00 DEBUG Loaded onbording URL from cache: production-ppcp
+2024-10-01T02:46:18+00:00 DEBUG Loaded onbording URL from cache: production-express_checkout
+2024-10-01T02:46:19+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f87294793c8ca
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:31+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f6932015f91d7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:34+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f31780660a0ab
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:35+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f367690ab3e60
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:36+00:00 DEBUG DELETE https://api-m.sandbox.paypal.com/v1/notifications/webhooks/7KC45076M8391774X
+Response Debug ID: f165441fab1a9
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+2024-10-01T02:49:36+00:00 INFO Webhooks deleted.
+2024-10-01T02:49:36+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/67WWR7WNN4CR8
+Response Debug ID: f16544162c41b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:39+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/67WWR7WNN4CR8
+Response Debug ID: f27399954af47
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:39+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f680190d66716
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:49:39+00:00 INFO Webhooks deleted.
+2024-10-01T02:50:17+00:00 INFO Generating onboarding URL for: production-ppcp
+2024-10-01T02:50:18+00:00 DEBUG POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/pruebadig12.free.nf\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1wcGNwIiwidSI6MSwiaCI6ImE3NzY1ZDE1YjM5NzFmZmQ4MTdkOGQ5MmIyMDU4MDA1In0","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT","TRACKING_SHIPMENT_READWRITE"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: e07d93fd102c7
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:50:18+00:00 INFO Persisted onboarding URL for: production-ppcp
+2024-10-01T02:50:18+00:00 INFO Generating onboarding URL for: production-express_checkout
+2024-10-01T02:50:19+00:00 DEBUG POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/pruebadig12.free.nf\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0IiwidSI6MSwiaCI6IjQ1OTA3ZmFmMDkzZWVlZjMzZGU5NThhYjUyZGJjMGJjIn0","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT","TRACKING_SHIPMENT_READWRITE"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 75a953a632810
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:50:19+00:00 INFO Persisted onboarding URL for: production-express_checkout
+2024-10-01T02:50:19+00:00 INFO Generating onboarding URL for: sandbox-ppcp
+2024-10-01T02:50:20+00:00 DEBUG POST https://api.woocommerce.com/integrations/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/pruebadig12.free.nf\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoic2FuZGJveC1wcGNwIiwidSI6MSwiaCI6IjBhOWUyNDBlNWNhMjQwMDc0ZTJmZWYyMDQ2OTU5YjlkIn0","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT","TRACKING_SHIPMENT_READWRITE"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 3adbafa3bb14e
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:50:20+00:00 INFO Persisted onboarding URL for: sandbox-ppcp
+2024-10-01T02:50:20+00:00 INFO Generating onboarding URL for: sandbox-express_checkout
+2024-10-01T02:50:21+00:00 DEBUG POST https://api.woocommerce.com/integrations/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/pruebadig12.free.nf\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoic2FuZGJveC1leHByZXNzX2NoZWNrb3V0IiwidSI6MSwiaCI6Ijg1NWIyMzEzMTA4OTFhM2Q0NTRhZWM3MjA4NGRhNmQxIn0","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT","TRACKING_SHIPMENT_READWRITE"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 41a29de6aed30
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:50:21+00:00 INFO Persisted onboarding URL for: sandbox-express_checkout
+2024-10-01T02:51:21+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: f9803889a243a
+Response: Array
+(
+    [code] => 401
+    [message] => Unauthorized
+)
+
+Response Body: {"error":"invalid_authz_code","error_description":"Authorization code not found in cache"}
+2024-10-01T02:51:21+00:00 WARNING No se ha encontrado ningún token. CONTEXT: {"args":{"method":"POST","headers":{"Authorization":"Basic QkFBRmFtN09MaVVYdnlmcUZSVDRTcklPRHYyV0JFZ0g1M3lPd2IwUnJtVklzYnZ5d3ZNVGRXSXhXN0ZvbVZhNU9wZDIwaVljMUZCQ0xHVE9Vbzo="},"body":{"grant_type":"authorization_code","code":"C21AAIglNgosQ-IEKM3j-_nY9b0Lx96Zz9nLU46J2Fqc0wDlokXFoZk0r6Yl5p-mEFpbslHpokHUEAUgxV_JP8K3JG2bx2h9Q","code_verifier":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}},"response":{"headers":{},"body":"{"error":"invalid_authz_code","error_description":"Authorization code not found in cache"}","response":{"code":401,"message":"Unauthorized"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2024-10-01T02:51:21+00:00 ERROR Onboarding completion handling error: No se ha encontrado ningún token.
+2024-10-01T02:51:21+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/oauth2/token/
+Response Debug ID: f980388b550cb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:22+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/credentials/
+Response Debug ID: f4266300825e6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:30+00:00 DEBUG Validating onboarding ppcpToken: ey...mQxIn0
+2024-10-01T02:51:30+00:00 INFO Validated onboarding ppcpToken: ey...mQxIn0
+2024-10-01T02:51:30+00:00 INFO Redirect OK: https://pruebadig12.free.nf/wp-admin/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcp-tab=ppcp-connection
+2024-10-01T02:51:31+00:00 DEBUG Validating onboarding ppcpToken: ey...mQxIn0
+2024-10-01T02:51:31+00:00 INFO Validated previous token, silently redirecting: ey...mQxIn0
+2024-10-01T02:51:31+00:00 INFO Redirect OK: https://pruebadig12.free.nf/wp-admin/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcp-tab=ppcp-connection
+2024-10-01T02:51:33+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: f172106e5b8d4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:33+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f46974648261f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:36+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/67WWR7WNN4CR8
+Response Debug ID: f5129153d2d14
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:38+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/67WWR7WNN4CR8
+Response Debug ID: f939881df3ff1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:38+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f997125febbcd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:51:38+00:00 INFO Webhooks deleted.
+2024-10-01T02:51:39+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/pruebadig12.free.nf\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response Debug ID: f7411262bf124
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T02:51:39+00:00 INFO Webhooks subscribed.
+2024-10-01T02:51:42+00:00 DEBUG Loaded onbording URL from cache: production-ppcp
+2024-10-01T02:51:42+00:00 DEBUG Loaded onbording URL from cache: production-express_checkout
+2024-10-01T02:51:42+00:00 DEBUG GET https://api-m.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: f6720642c71dd
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2024-10-01T02:53:56+00:00 WARNING No PayPal order ID found in order #5448 meta.
+2024-10-01T02:53:57+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"USD","value":"70.00","breakdown":{"item_total":{"currency_code":"USD","value":"70.00"},"shipping":{"currency_code":"USD","value":"0.00"},"tax_total":{"currency_code":"USD","value":"0.00"}}},"description":"","items":[{"name":"Assorted Coffee","unit_amount":{"currency_code":"USD","value":"35.00"},"quantity":2,"description":"Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non\u00a0incidunt lores ta por","sku":"","category":"PHYSICAL_GOODS","url":"https:\/\/pruebadig12.free.nf\/producto\/assorted-coffee\/","image_url":"https:\/\/pruebadig12.free.nf\/wp-content\/uploads\/2018\/06\/coffee-asorted.jpg"}],"shipping":{"name":{"full_name":"s s"},"address":{"country_code":"EC","address_line_1":"a","address_line_2":"a","admin_area_1":"EC-G","admin_area_2":"a","postal_code":"34234"}},"custom_id":"5448","invoice_id":"becbfa-5448"}],"application_context":{"user_action":"PAY_NOW","shipping_preference":"GET_FROM_FILE","landing_page":"NO_PREFERENCE","locale":"es-ES","brand_name":"ToCupBoard","return_url":"https:\/\/pruebadig12.free.nf\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/pruebadig12.free.nf\/checkout\/","payment_method":{"payee_preferred":"UNRESTRICTED"}},"payer":{"email_address":"tania.allison1512@gmail.com","name":{"given_name":"s","surname":"s"},"address":{"country_code":"EC","address_line_1":"a","address_line_2":"a","admin_area_1":"EC-G","admin_area_2":"a","postal_code":"34234"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"23434234"}}}}
+Response Debug ID: f4491885d9e48
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2024-10-01T03:09:12+00:00 WARNING No PayPal order ID found in order #5450 meta.
+2024-10-01T03:09:13+00:00 DEBUG POST https://api-m.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"USD","value":"35.00","breakdown":{"item_total":{"currency_code":"USD","value":"35.00"},"shipping":{"currency_code":"USD","value":"0.00"},"tax_total":{"currency_code":"USD","value":"0.00"}}},"description":"","items":[{"name":"Assorted Coffee","unit_amount":{"currency_code":"USD","value":"35.00"},"quantity":1,"description":"Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non\u00a0incidunt lores ta por","sku":"","category":"PHYSICAL_GOODS","url":"https:\/\/pruebadig12.free.nf\/producto\/assorted-coffee\/","image_url":"https:\/\/pruebadig12.free.nf\/wp-content\/uploads\/2018\/06\/coffee-asorted.jpg"}],"shipping":{"name":{"full_name":"allison garcia"},"address":{"country_code":"EC","address_line_1":"12 Calle Bart","address_line_2":"Guuu","admin_area_1":"EC-G","admin_area_2":"Lucinda","postal_code":"525654"}},"custom_id":"5450","invoice_id":"becbfa-5450"}],"application_context":{"user_action":"PAY_NOW","shipping_preference":"GET_FROM_FILE","landing_page":"NO_PREFERENCE","locale":"es-ES","brand_name":"ToCupBoard","return_url":"https:\/\/pruebadig12.free.nf\/?wc-ajax=ppc-return-url","cancel_url":"https:\/\/pruebadig12.free.nf\/checkout\/","payment_method":{"payee_preferred":"UNRESTRICTED"}},"payer":{"email_address":"allisong697@gmail.com","name":{"given_name":"allison","surname":"garcia"},"address":{"country_code":"EC","address_line_1":"12 Calle Bart","address_line_2":"Guuu","admin_area_1":"EC-G","admin_area_2":"Lucinda","postal_code":"525654"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"0960173033"}}}}
+Response Debug ID: f694904637bc4
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+

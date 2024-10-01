@@ -1,0 +1,405 @@
+# Translation of Plugins - WPScan &#8211; WordPress Security Scanner - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WPScan &#8211; WordPress Security Scanner - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-05 11:56:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WPScan &#8211; WordPress Security Scanner - Stable (latest release)\n"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "No se han encontrado acciones"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "No se han encontrado acciones en la papelera"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Editar"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Editar la acción programada"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Ver la acción"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Buscar acciones programadas"
+
+#: libraries/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr "Intentando reducir la memoria usada..."
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Añadir una nueva acción programada"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Nueva acción programada"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Añadir"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Acciones programadas"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Acción programada"
+
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:77
+msgid "Database error."
+msgstr "Error de la base de datos."
+
+#. translators: %s: action ID
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:470
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:560
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:592
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:802
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:844
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:467
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:478
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:505
+#: libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:798
+msgid "Unidentified action %s"
+msgstr "Acción no identificada %s"
+
+#: app/Plugin.php:488
+msgid "WPScan profile page"
+msgstr "Página de perfil de WPScan"
+
+#: app/Settings.php:98
+msgid "WPScan API Token"
+msgstr "Token de la API de WPScan"
+
+#: views/report.php:6
+msgid "<span class=\"wpscan-ignored\">Ignored from the settings</span>"
+msgstr "<span class=\"wpscan-ignored\">Ignorado desde los ajustes</span>"
+
+#: app/Settings.php:367
+msgid "WordPress Core"
+msgstr "Núcleo de WordPress"
+
+#: app/Settings.php:330
+msgid "This setting allows you to set the scanning hour for the <code>Daily</code> option. For the <code>Twice Daily</code> this will be the first scan and the second will be 12 hours later. For the <code>Hourly</code> it will affect the first scan only."
+msgstr "Este ajuste te permite establecer la hora de exploración de la opción <code>Diariamente</code>. Para <code>Dos veces al día</code>, esta será la primera exploración y la segunda se ejecutará 12 horas después. El ajuste <code>Cada hora</code> afectará solo la primera exploración."
+
+#: views/report.php:18
+msgid "Automated scanning is currently disabled using the <code>WPSCAN_DISABLE_SCANNING_INTERVAL</code> constant. You can still run scans manually."
+msgstr "La exploración automatizada está actualmente desactivada usando la constante <code>WPSCAN_DISABLE_SCANNING_INTERVAL</code>. Aún puedes ejecutar exploraciones manualmente."
+
+#: app/Settings.php:130
+msgid "Ignore Items"
+msgstr "Ignorar elementos"
+
+#: app/Settings.php:114
+msgid "Scanning Time"
+msgstr "Tiempo de exploración"
+
+#: app/Settings.php:106
+msgid "Automated Scanning"
+msgstr "Exploración automática"
+
+#: app/Settings.php:298 app/Settings.php:328
+msgid "Automated scanning is currently disabled using the <code>WPSCAN_DISABLE_SCANNING_INTERVAL</code> constant."
+msgstr "La exploración automatizada está actualmente desactivada usando la constante <code>WPSCAN_DISABLE_SCANNING_INTERVAL</code>."
+
+#: app/Settings.php:285
+msgid "Hourly"
+msgstr "Cada hora"
+
+#: app/Settings.php:284
+msgid "Twice daily"
+msgstr "Dos veces al día"
+
+#: app/Settings.php:300
+msgid "This setting will change the frequency that the WPScan plugin will run an automatic scan. This is useful if you want your report, or notifications, to be updated more frequently. Please note that the more frequent scans are run, the more API requests are consumed."
+msgstr "Este ajuste cambiará la frecuencia con la que el plugin WPScan ejecutará una exploración automática. Esto es útil si quieres que tu informe, o los avisos, se actualicen con más frecuencia. Por favor, ten en cuenta que, cuanto más frecuentes son las exploraciones, se consumen más solicitudes de la API."
+
+#: app/Account.php:153
+msgid "Resets In"
+msgstr "Se restablece en"
+
+#: app/SiteHealth.php:69
+msgid "Vulnerabilities can be exploited by hackers and cause harm to your website."
+msgstr "Las vulnerabilidades pueden ser aprovechadas por hackers y causar daños a tu web."
+
+#: app/SiteHealth.php:80
+msgid "Your site is affected by %d security vulnerability"
+msgid_plural "Your site is affected by %d security vulnerabilities"
+msgstr[0] "Tu sitio está afectado por %d vulnerabilidad de seguridad"
+msgstr[1] "Tu sitio está afectado por %d vulnerabilidades de seguridad"
+
+#: views/report.php:203
+msgid "Download as PDF"
+msgstr "Descargar como PDF"
+
+#: app/Account.php:119
+msgid "Hour"
+msgstr "Hora"
+
+#: app/Account.php:119
+msgid "Hours"
+msgstr "Horas"
+
+#: app/Account.php:144
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: app/Account.php:149
+msgid "Plan"
+msgstr "Plan"
+
+#: app/Account.php:49 app/Account.php:50 app/Account.php:51
+msgid "unlimited"
+msgstr "ilimitado"
+
+#: app/Account.php:73
+msgid "Account Status"
+msgstr "Estado de la cuenta"
+
+#: app/SiteHealth.php:64
+msgid "Security"
+msgstr "Seguridad"
+
+#: views/report.php:39
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/report.php:95 views/report.php:140
+msgid "Version <span>%s</span>"
+msgstr "Versión: <span>%s</span>"
+
+#: app/Account.php:144
+msgid "Manage"
+msgstr "Gestionar"
+
+#: app/Account.php:152
+msgid "Usage"
+msgstr "Uso"
+
+#: app/SiteHealth.php:38
+msgid "WPScan Vulnerabilities Check"
+msgstr "Comprobación de vulnerabilidades de WPScan"
+
+#: app/Settings.php:257
+msgid "check your profile"
+msgstr "comprueba tu perfil"
+
+#: app/Settings.php:250
+msgid "Your API Token has been set in a PHP file and been disabled here."
+msgstr "Tu token de la API ha sido establecido en un archivo PHP y ha sido desactivado aquí."
+
+#: app/Settings.php:175
+msgid " page, or, within the wp-config.php file."
+msgstr " página o dentro del archivo wp-config.php."
+
+#. Description of the plugin
+#: wpscan.php
+msgid "WPScan WordPress Security Scanner. Scans your system for security vulnerabilities listed in the WPScan Vulnerability Database."
+msgstr "WPScan WordPress Security Scanner. Explora tu sistema en busca de vulnerabilidades de seguridad listadas en la base de datos de vulnerabilidades de WPScan."
+
+#: app/Settings.php:213
+msgid "The WPScan WordPress security plugin uses our own constantly updated vulnerability database to stay up to date with the latest WordPress core, plugin and theme vulnerabilities. For the WPScan plugin to retrieve the potential vulnerabilities that may affect your site, you first need to configure your API token, that you can get for free from our database's website. Alternatively you can also set your API token in the wp-config.php file using the WPSCAN_API_TOKEN constant."
+msgstr "El plugin WPScan WordPress Security Scanner usa nuestra propia base de datos de vulnerabilidades que se actualiza constantemente para mantenerse al día con las últimas vulnerabilidades del núcleo, los plugins y los tema para WordPress. Para que el plugin WPScan recupere las vulnerabilidades potenciales que pueden afectar a tu sitio, primero debes configurar tu token de la API, que puedes obtener de forma gratuita en la web de nuestra base de datos. Alternativamente, también puedes configurar tu token de la API en el archivo wp-config.php usando la constante WPSCAN_API_TOKEN."
+
+#: app/Settings.php:256
+msgid "To regenerate your token, or upgrade your plan, %s."
+msgstr "Para regenerar tu token o actualizar tu plan, %s."
+
+#: app/Summary.php:87
+msgid "Some vulnerabilities were found"
+msgstr "Se han encontrado algunas vulnerabilidades"
+
+#: app/Settings.php:172
+msgid "To use WPScan you have to setup your WPScan API Token. Either in the "
+msgstr "Para usar WPScan, tienes que configurar tu token de la API de WPScan. Ya sea en los "
+
+#: app/Report.php:112
+msgid "No known vulnerabilities found to affect this version"
+msgstr "No se han encontrado vulnerabilidades conocidas que afecten a esta versión"
+
+#: views/report.php:24
+msgid "The task is running in the background. This page will be reloaded once finished to display the results."
+msgstr "La tarea se está ejecutando en segundo plano. Esta página se recargará cuando haya finalizado para mostrar los resultados."
+
+#: app/Dashboard.php:72
+msgid "No vulnerabilities found"
+msgstr "No se encontraron vulnerabilidades"
+
+#: app/Notification.php:74
+msgid "Send Alerts"
+msgstr "Enviar alertas"
+
+#: app/Notification.php:156
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: app/Notification.php:157 app/Settings.php:283
+msgid "Daily"
+msgstr "Diario"
+
+#: app/Notification.php:158
+msgid "Every Monday"
+msgstr "Cada lunes"
+
+#: app/Notification.php:159
+msgid "Every Tuesday"
+msgstr "Cada martes"
+
+#: app/Notification.php:160
+msgid "Every Wednesday"
+msgstr "Cada miércoles"
+
+#: app/Notification.php:161
+msgid "Every Thursday"
+msgstr "Cada jueves"
+
+#: app/Notification.php:162
+msgid "Every Friday"
+msgstr "Cada viernes"
+
+#: app/Notification.php:163
+msgid "Every Saturday"
+msgstr "Cada sábado"
+
+#: app/Notification.php:164
+msgid "Every Sunday"
+msgstr "Cada domingo"
+
+#: app/Notification.php:165
+msgid "Every Month"
+msgstr "Cada mes"
+
+#: app/Notification.php:294
+msgid "Hello,"
+msgstr "Hola,"
+
+#: app/Notification.php:315
+msgid "Plugin"
+msgstr "Plugin"
+
+#: app/Report.php:43
+msgid "Report"
+msgstr "Informe"
+
+#: app/Settings.php:262
+msgid "Sign up"
+msgstr "Regístrate"
+
+#: app/Plugin.php:418
+msgid "View"
+msgstr "Ver"
+
+#: views/report.php:45 views/report.php:77 views/report.php:125
+#: views/report.php:171
+msgid "Name"
+msgstr "Nombre"
+
+#: views/report.php:46 views/report.php:78 views/report.php:126
+msgid "Vulnerabilities"
+msgstr "Vulnerabilidades"
+
+#: app/Settings.php:394 views/report.php:71
+msgid "Plugins"
+msgstr "Plugins"
+
+#. Author of the plugin
+#: wpscan.php
+msgid "WPScan Team"
+msgstr "WPScan Team"
+
+#. Plugin Name of the plugin
+#: wpscan.php
+msgid "WPScan"
+msgstr "WPScan"
+
+#. Plugin URI of the plugin
+#: wpscan.php
+msgid "http://wordpress.org/plugins/wpscan/"
+msgstr "https://es.wordpress.org/plugins/wpscan/"
+
+#: app/Summary.php:48
+msgid "Summary"
+msgstr "Resumen"
+
+#: app/Settings.php:174 app/Settings.php:188 app/Settings.php:211
+msgid "Settings"
+msgstr "Ajustes"
+
+#: app/Plugin.php:896
+msgid "%d vulnerability found"
+msgid_plural "%d vulnerabilities found"
+msgstr[0] "%d vulnerabilidad encontrada"
+msgstr[1] "%d vulnerabilidades encontradas"
+
+#: app/Plugin.php:794
+msgid "Fixed in version %s"
+msgstr "Corregido en la versión %s"
+
+#: app/Plugin.php:793
+msgid "Not fixed"
+msgstr "No corregido"
+
+#: app/Notification.php:91
+msgid "Notification"
+msgstr "Aviso"
+
+#: app/Notification.php:328
+msgid "Theme"
+msgstr "Tema"
+
+#: app/Settings.php:393 views/report.php:119
+msgid "Themes"
+msgstr "Temas"
+
+#: app/Notification.php:64
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#. Author URI of the plugin
+#: wpscan.php
+msgid "https://wpscan.com/"
+msgstr "https://wpscan.com/"
+
+#: app/Dashboard.php:65
+msgid "No Report available"
+msgstr "No hay ningún informe disponible"
+
+#: app/SiteHealth.php:61 app/Summary.php:83
+msgid "No known vulnerabilities found"
+msgstr "No se han encontrado vulnerabilidades conocidas"
+
+#: app/Plugin.php:479
+msgid "Your API Token expired"
+msgstr "Tu token de la API ha caducado"
+
+#: app/Notification.php:208
+msgid "You have entered an invalid e-mail address."
+msgstr "Has introducido una dirección de correo electrónico no válida."
+
+#: app/Settings.php:261
+msgid "%s to get your free API Token."
+msgstr "%s para obtener tu token gratuito de la API."
+
+#: app/Summary.php:85
+msgid "You need to add a WPScan API Token to the settings page"
+msgstr "Tienes que añadir un token de la API de WPScan a la página de ajustes"
+
+#: app/Dashboard.php:60
+msgid "To use WPScan you have to setup your WPScan API Token."
+msgstr "Para usar WPScan, tienes que configurar tu token de la API de WPScan."
